@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf') format('woff2');
+}
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+/* Header Styling */
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.main-heading {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+
+/* Main Content Styling */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list li {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.list li:first-child {
+  background-color: #3498db;
+  border-radius: 5px;
+}
+
+.list li:last-child {
+  background-color: #e74c3c;
+  border-radius: 5px;
+}
+
+.nested-list {
+  list-style-type: circle;
+}
+
+.nested-list li {
+  margin-left: 20px;
+}
+
+.movie-type {
+  font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Rounded corners on images */
+img {
+  margin-top: 30px;
+  border-radius: 10px;
+}
